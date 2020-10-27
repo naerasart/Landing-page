@@ -1,0 +1,100 @@
+body {
+    background-color: orange;
+}
+
+#header {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -8px;
+    height: 10%;
+    color: white;
+    display: block;
+}
+
+#header-img {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 40;
+    height: 45;
+    display: inline-flex;
+}
+
+.nav-link {
+    display: inline-block;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+@media (max-height: 300px) {
+    body {
+        font-size: 10px;
+        display: flex;
+    }
+}
+
+#media {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    margin-left: 400px;
+}
+
+h1 {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: 620px;
+    font-size: 50;
+}
+
+p {
+    margin-top: 40px;
+    margin-left: 540px;
+}
+
+#contact {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
+
+#comments {
+    width: 70%;
+    margin-top: 10px;
+    background-color: lightgray;
+    color: black;
+}
+
+#commenting {
+    margin-top: 60px;
+    margin-left: 295px;
+}
+
+#email-label {
+    padding-top: 50px;
+    margin-top: 40px;
+    margin-left: 310px;
+}
+
+#submit {
+    margin-top: 40px;
+    margin-left: 260px;
+    margin-bottom: 20px;
+    width: 15%;
+    height: 20%;
+}
+
+#email {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    background-color: lightgray;
+    color: black;
+}
+
+body {}

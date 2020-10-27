@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="landing page.css">
+    <title id=title>Landing page</title>
+</head>
+
+<body>
+    <div id=heading>
+        <header id="header">
+
+
+            <nav id="nav-bar">
+
+                <img id="header-img" src="froggy.jpg" alt="froggy" width="40" height=" 45">
+                <a class="nav-link" href="#contact">Contact</a>
+
+                <a class="nav-link" href="#media">Media</a> |
+                <a class="nav-link" href="#about">About</a>
+
+
+            </nav>
+        </header>
+    </div>
+
+
+    <main>
+        <div id="About">
+            <h1> Froggies</h1>
+            <p>This page is dedicated to frogs of all kinds</p>
+        </div>
+
+        <div id="media">
+
+
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/oMFxQsaT274"></iframe>
+        </div>
+
+
+        <div id="contact">
+            <form id="survey-form" action=" https://www.freecodecamp.com/email-submit">
+                <div class="group">
+                    <label id="email-label" for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required="" /> <br />
+
+                </div>
+                <div class="comment">
+                    <label id="commenting" for="comments"> Comments:</label><br>
+                    <textarea rows=5 columns=50 id="comments" name="comment" placeholder="Enter text here..."></textarea>
+
+                </div>
+                <div class="submit">
+                    <button id="submit" type="submit" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
